@@ -1,4 +1,4 @@
-<img src="https://telegra.ph/file/ceda1580c90e06991e883.png">
+<img src="https://te.legra.ph/file/ba785b585d3b7ef533556.jpg">
 
 # 𝐍𝐞𝐤𝐨 𝐑𝐨𝐛𝐨𝐭 [ BETA ]
 [![License](https://img.shields.io/badge/License-BSD%202--Clause-orange.svg)](https://opensource.org/licenses/BSD-2-Clause) [![DeepSource](https://static.deepsource.io/deepsource-badge-light-mini.svg)](https://deepsource.io/gh/Awesome-Prince/NekoRobot-3/?ref=repository-badge) [![Join Support!](https://img.shields.io/badge/Join%20Channel-!-red)](https://telegram.dog/Besties_XD) [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/) [![Maintenance](https://img.shields.io/badge/Maintained%3F-Yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity) [![GitHub contributors](https://img.shields.io/github/contributors/Naereen/StrapDown.js.svg)](https://GitHub.com/Awesome-Prince/NekoRobot-3/graphs/contributors/)
@@ -16,7 +16,7 @@ A modular telegram Python bot running on python3 with an Sqlalchemy, mongodb dat
 - [x] Heroku Deploy
 - [x] Docker/Local Machine
 
-╘═━「 Can be found on telegram as [NekoRobot](https://telegram.dog/Obanai_ProBot) 」
+╘═━「 Can be found on telegram as [ObanaiRobot](https://telegram.dog/Obanai_ProBot) 」
 
 ## ╔═━「 Credits 」
 The bot is based of on the original work done by DEVS
@@ -25,7 +25,7 @@ This repo was just reamped to suit an Anime-centric community. All original cred
 
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 
-The Support group can be reached out to at [Programmer • Support]([https://telegram.dog/Besties_XD](https://t.me/Ahjin_sprt)
+The Support group can be reached out to at [Programmer • Support](https://t.me/Ahjin_sprt)
 
 <details>
 	<summary>Deploy Options</summary>
