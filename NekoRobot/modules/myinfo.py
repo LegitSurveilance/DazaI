@@ -11,11 +11,11 @@ from NekoRobot.events import register
 
 edit_time = 5
 """ =======================CONSTANTS====================== """
-file1 = "https://telegra.ph/file/36440524ecd0a6b65138f.jpg"
-file2 = "https://telegra.ph/file/b0868af85d1d17554a6d4.jpg"
-file3 = "https://telegra.ph/file/60c612b4736560f9b98b9.jpg"
-file4 = "https://telegra.ph/file/a502e6322a201f5949058.jpg"
-file5 = "https://telegra.ph/file/737a7b4d519887c35ed21.jpg"
+file1 = "https://te.legra.ph/file/ba785b585d3b7ef533556.jpg"
+file2 = "https://te.legra.ph/file/2e66167b8f77dfff0d8c5.jpg"
+file3 = "https://te.legra.ph/file/2f763dae37ac08cce99e3.jpg"
+file4 = "https://te.legra.ph/file/b43388c42ebee04cc4079.jpg"
+file5 = "https://te.legra.ph/file/d7a99dd6ab7215ef22be4.jpg"
 """ =======================CONSTANTS====================== """
 
 
@@ -28,7 +28,7 @@ async def proboyx(event):
     on = await bot.send_file(
         event.chat_id,
         file=file2,
-        caption=f"♡ Hey {betsy}, I'm Neko\n♡ I'm Created By [Prince](tg://user?id=1732814103)\n♡ Click The Button Below To Get Your Info",
+        caption=f"♡ Hey {betsy}, I'm Obanai\n♡ I'm Created By [LEVI](tg://user?id=1737646273)\n♡ Click The Button Below To Get Your Info",
         buttons=button,
     )
 
