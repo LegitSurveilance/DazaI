@@ -45,7 +45,7 @@ from NekoRobot.modules.sql.afk_sql import check_afk_status, is_afk
 from NekoRobot.modules.sql.global_bans_sql import is_user_gbanned
 from NekoRobot.modules.sql.users_sql import get_user_num_chats
 
-NEKO_IMG = "https://telegra.ph/file/a21731c0c4c7f27a3ec16.jpg"
+NEKO_IMG = "https://te.legra.ph/file/e042a8df2f933d589d2e9.jpg"
 
 
 def no_by_per(totalhp, percentage):
@@ -315,17 +315,17 @@ def info(update: Update, context: CallbackContext):
     if user.id == OWNER_ID:
         text += "\n\nThe Disaster level of this person is 'God'."
     elif user.id in DEV_USERS:
-        text += "\n\nThis user is member of 'Heros Association'."
+        text += "\n\nThis user is member of 'HASHIRA CASTLE'."
     elif user.id in DRAGONS:
-        text += "\n\nThe Disaster level of this person is 'Dragon'."
+        text += "\n\nThe Disaster level of this person is 'SENSEI'."
     elif user.id in DEMONS:
-        text += "\n\nThe Disaster level of this person is 'Demon'."
+        text += "\n\nThe Disaster level of this person is 'Hashira'."
     elif user.id in TIGERS:
-        text += "\n\nThe Disaster level of this person is 'Tiger'."
+        text += "\n\nThe Disaster level of this person is 'Kinoe'."
     elif user.id in WOLVES:
-        text += "\n\nThe Disaster level of this person is 'Wolf'."
+        text += "\n\nThe Disaster level of this person is 'Mizunoto'."
     elif user.id == 5561111332:
-        text += "\n\nSenorita Is Girlfriend Of @Its_IZ_PRINCE_xD."
+        text += "\n\nSenorita Is Girlfriend Of @EminenceCurse."
 
     try:
         user_member = chat.get_member(user.id)
@@ -465,7 +465,7 @@ def stats(update, context):
                 [
                     [
                         InlineKeyboardButton(
-                            text="Repo", url="github.com/Awesome-Prince/NekoRobot-3"
+                            text="Repo", url="https://te.legra.ph/file/a394e3c374782668f82f5.jpg"
                         )
                     ]
                 ]
@@ -479,16 +479,16 @@ def stats(update, context):
                         "\n*Bot statistics*:\n"
                         + "\n".join(mod.__stats__() for mod in STATS)
                     )
-                    + f"\n\n✦ [Support](https://t.me/{SUPPORT_CHAT}) | ✦ [Updates](https://t.me/Programmer_Updates)\n\n"
+                    + f"\n\n✦ [Support](https://t.me/{SUPPORT_CHAT}) | ✦ [Updates](https://t.me/Mitsuri_Updates)\n\n"
                 )
-                + "╘══「 by [Programmer • Network](https://t.me/Programmer_Network) 」\n"
+                + "╘══「 by [Programmer • Network](https://t.me/Ahjin_sprt) 」\n"
             ),
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
                         InlineKeyboardButton(
-                            text="Repo", url="github.com/Awesome-Prince/NekoRobot-3"
+                            text="Repo", url="https://t.me/Mitsuri_Updates"
                         )
                     ]
                 ]
