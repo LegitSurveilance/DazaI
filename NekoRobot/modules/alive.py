@@ -73,12 +73,12 @@ async def hmm(yes):
     current_time = datetime.utcnow()
     uptime_sec = (current_time - START_TIME).total_seconds()
     uptime = await _human_time_duration(int(uptime_sec))
-    NekoX = f"** ♡ Hey [{yes.sender.first_name}](tg://user?id={yes.sender.id}) I'm {BOT_NAME} **\n\n"
-    NekoX += f"**♡ My Uptime :** `{uptime}`\n\n"
-    NekoX += f"**♡ Python-telegram-bot Version :** `{ptb}`\n\n"
-    NekoX += f"**♡ Telethon Version :** `{tlhver}`\n\n"
-    NekoX += f"**♡ Pyrogram Version :** `{pyrover}`\n\n"
-    NekoX += "**♡ My Master :**(https://t.me/EminenceCurse) "
+    NekoX = f"** Sokkaa!! [{yes.sender.first_name}](tg://user?id={yes.sender.id}) I'm {BOT_NAME} **\n\n"
+    NekoX += f"**My Uptime :** `{uptime}`\n\n"
+    NekoX += f"**Python-telegram-bot Version :** `{ptb}`\n\n"
+    NekoX += f"**Telethon Version :** `{tlhver}`\n\n"
+    NekoX += f"**Pyrogram Version :** `{pyrover}`\n\n"
+    NekoX += "**My Master :**(https://t.me/EminenceCurse) "
     NekoX += f"Thanks For Adding Me In {yes.chat.title}"
     BUTTON = [
         [
