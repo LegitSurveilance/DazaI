@@ -561,7 +561,7 @@ async def middemote(dmod):
         return
 
     if not await is_register_admin(dmod.input_chat, user.id):
-        await dmod.reply("**Darling, i cant demote non-admin**")
+        await dmod.reply("**Oi oi.., i cant demote non-admin**")
         return
     if not user:
         return
