@@ -33,13 +33,13 @@ PHOTO = "https://telegra.ph/file/70061cba45ee824dad6f6.jpg"
 
 @register(pattern=("/repo"))
 async def awake(event):
-    OBANAI = """
+    DAZAI = """
          NOT NOW ✨🥀
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
 「@Obanai_ProBot」
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
-Here is the Repo Deploy your Own NekoRobot.
-⚜️Repo ➤ https://te.legra.ph/file/873ea19b3294266411b45.jpg
+Here is the Repo Deploy your Own DazaiRobot.
+⚜️Repo ➤ https://te.legra.ph/file/5617bd9277253fdce53bb.jpg
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
 🔰 Thanks for your support 
 But We are not going to share you this Repo.
@@ -50,9 +50,9 @@ Powered By:- @Ahjin_sprt
     BUTTON = [
         [
             Button.url(
-                "📢 Repository", "https://te.legra.ph/file/873ea19b3294266411b45.jpg"
+                "📢 Repository", "https://te.legra.ph/file/5617bd9277253fdce53bb.jpg"
             ),
-            Button.url("💻 Collaborators", "https://te.legra.ph/file/873ea19b3294266411b45.jpg"),
+            Button.url("💻 Collaborators", "https://te.legra.ph/file/3b8db7fd7e30603ff8525.jpg"),
         ]
     ]
     await tbot.send_file(event.chat_id, PHOTO, caption=NEKO, buttons=BUTTON)
