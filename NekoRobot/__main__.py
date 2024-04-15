@@ -112,17 +112,17 @@ HELP_MSG = "Click The Button Below To Get Help Menu In Your Dm."
 START_MSG = "I'm Awake Already!\n<b>Haven't Slept Since:</b> <code>{}</code>"
 
 NEKO_STICKERS = (
-    "CAACAgQAAxkBAAIbv2YcIBsYTeSGjh9dzBmtl9WWVvBNAAKeCgAChgxRUvntrisq68Y0NAQ",
-    "CAACAgQAAxkBAAIbwmYcIFlyPawq3CeH3KGtsJFRCHyrAALHCwAC7K1IUkPSBvoPZZALNAQ",
-    "CAACAgQAAxkBAAIbxmYcIInpJkBFn9eONcjTWO9zvxtqAAK9DAACX3tJUnBzaXZF5gJpNAQ",
-    "CAACAgQAAxkBAAIbyWYcIJujxzLNsJ74j36hedlNiho0AAK1DgACd5ZJUkYs0FQ4rZsYNAQ",
-    "CAACAgQAAxkBAAIbzGYcIKzAg-Y4QNg2MUfI8jooWzRSAAKjEAACK1BJUidPa8Im1JSENAQ",
+    "CAACAgQAAx0CZ6jnnwABARlBZhzXJDydkVCeycREybmHed03jB0AAqgDAAJ48AkcuYtWayuzH200BA",
+    "CAACAgQAAx0CZ6jnnwABARlGZhzXRrGV23Tdl4a9VnOiRZ4RblQAAq0DAAJ48AkcFZzNpLqSBI80BA",
+    "CAACAgQAAx0CZ6jnnwABARlLZhzXX1GjMVEm1RYHtcYnhgjOV3YAApcDAAJ48AkcVnzcbbAAAS3GNAQ",
+    "CAACAgQAAx0CZ6jnnwABARlQZhzXdUW_Jir1Ai3xBTlV196xrwoAAqsDAAJ48Akc_9H91LW5Kvs0BA",
+    "CAACAgQAAx0CZ6jnnwABARlWZhzXno0nVznQBdiw-EOMAtx-xH8AAq4DAAJ48AkcEPuPjNI7tGY0BA",
 )
 
 PM_START_TEXT = """
-────「 [{}](https://te.legra.ph/file/a394e3c374782668f82f5.jpg) 」────
+────「 [{}](https://te.legra.ph/file/5617bd9277253fdce53bb.jpg) 」────
 *Hola! {},*
-*Meow Meow, Don't Touch Me Without My Permission!*
+*Oi Oi.., Don't Touch Me Without My Permission!*
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
 ❍ *Uptime:* `{}`
 ❍ `{}` *Users, Across* `{}` *Chats.*
@@ -140,7 +140,7 @@ buttons = [
     [
         InlineKeyboardButton(text="📓 Guidelines", callback_data="help_back"),
         InlineKeyboardButton(
-            text="Source 🌐", url="https://te.legra.ph/file/a394e3c374782668f82f5.jpg"
+            text="Source 🌐", url="https://te.legra.ph/file/5a1f77e12c20852812c6b.jpg"
         ),
     ],
     [
@@ -164,11 +164,11 @@ HELP_STRINGS = """
 """
 
 GROUP_START_IMG = (
-    "https://te.legra.ph/file/e042a8df2f933d589d2e9.jpg",
-    "https://te.legra.ph/file/04bff32c12f05946af3c7.jpg",
-    "https://te.legra.ph/file/40cba30ebaeaf88729d17.jpg",
-    "https://te.legra.ph/file/ba785b585d3b7ef533556.jpg",
-    "https://te.legra.ph/file/d404cdf4b566b9c6630f3.jpg",
+    "https://te.legra.ph/file/523f4c00f8d5ea0b27b14.jpg",
+    "https://te.legra.ph/file/f7e9e4401b74e175c4ed5.jpg",
+    "https://te.legra.ph/file/0dea7a3a14891ddfdde1c.jpg",
+    "https://te.legra.ph/file/4e3e3f5a5c65a55b3a52a.jpg",
+    "https://te.legra.ph/file/3b8db7fd7e30603ff8525.jpg",
 )
 
 DONATE_STRING = """❂ I'm Free for Everyone ❂"""
@@ -308,11 +308,11 @@ def start(update: Update, context: CallbackContext):
                 [
                     [
                         InlineKeyboardButton(
-                            text="🚑 Support",
+                            text="🥂 Support",
                             url=f"https://telegram.dog/{SUPPORT_CHAT}",
                         ),
                         InlineKeyboardButton(
-                            text="📢 Updates",
+                            text="❄️ Updates",
                             url="https://t.me/Ahjin_sprt",
                         ),
                     ]
@@ -676,11 +676,11 @@ def donate(update: Update, context: CallbackContext) -> None:
                     [
                         [
                             InlineKeyboardButton(
-                                text="📢 Updates",
+                                text="🥂 Updates",
                                 url="https://t.me/Ahjin_sprt",
                             ),
                             InlineKeyboardButton(
-                                text="🚑 Support",
+                                text="❄️ Support",
                                 url=f"https://telegram.dog/{SUPPORT_CHAT}",
                             ),
                         ]
