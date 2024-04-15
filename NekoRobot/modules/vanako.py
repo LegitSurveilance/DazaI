@@ -36,7 +36,7 @@ async def awake(event):
     NEKO = f" WELCOME TO OUR CASTLE♡︎ ɪ ʜᴏᴘᴇ ʏᴏᴜ ᴄᴀɴ ɢᴇᴛ ᴍᴀɴʏ ғʀɪᴇɴᴅs ɪɴ ᴛʜɪs ɢʀᴏᴜᴘ"
     BUTTON = [
         [
-            Button.url("Meet Me Here🎀", "https://t.me/Ahjin_sprt"),
+            Button.url("Meet Me Here🎀", "https://t.me/Surveycorpschat"),
         ]
     ]
     await tbot.send_file(event.chat_id, PHOTO, caption=NEKO, buttons=BUTTON)
