@@ -112,17 +112,17 @@ HELP_MSG = "Click The Button Below To Get Help Menu In Your Dm."
 START_MSG = "I'm Awake Already!\n<b>Haven't Slept Since:</b> <code>{}</code>"
 
 NEKO_STICKERS = (
-    "CAACAgUAAxkBAAIIW2NL5v9F9hUom4xmsgNYb63SEfZZAAIZBgACYAF5VIerYoMcSln8KgQ",
-    "CAACAgUAAxkBAAIIT2NL5tVmdAO3n1o3cp9Jic9LkqJvAAK7AgACoU3RVLpdwYfQPmS9KgQ",
-    "CAACAgUAAxkBAAIIUGNL5tVNd0rwdoMv-uDVcZ3hHgwlAAIwAwACP9jQVMv2AfU-DvBfKgQ",
-    "CAACAgUAAxkBAAIIUmNL5tUzCtvS5E-XR8h3tFMSqVu7AAIGAwACNZnYVOTUhlBiHTQGKgQ",
-    "CAACAgUAAxkBAAIIUWNL5tVBEQAB2gWLSq0ymEPeAj5kmQAC3QEAAuu92VSPj3UkCiNvfioE",
+    "CAACAgQAAx0CZ6jnnwABARlWZhzXnkiOK9_8WAABETcUGdOYZTR3AAKuAwACePAJHBD7j4zSO7RmNAQ",
+    "CAACAgUAAx0CZ6jnnwABARwaZhz8FnQLtqxUmjO_ZVaRubuX8HsAAroBAALLyUhUHrpJYZn9cl40BA",
+    "CAACAgQAAx0CZ6jnnwABARlQZhzXdSQrQj0g191q8uuAbwiT_CQAAqsDAAJ48Akc_9H91LW5Kvs0BA",
+    "CAACAgQAAx0CZ6jnnwABARlLZhzXXyT7EjPfmFwtxoxGW2STTOkAApcDAAJ48AkcVnzcbbAAAS3GNAQ",
+    "CAACAgQAAx0CZ6jnnwABARlGZhzXRkYHayg3UCsKogs7JUq60lEAAq0DAAJ48AkcFZzNpLqSBI80BA",
 )
 
 PM_START_TEXT = """
-────「 [{}](https://telegra.ph/file/9996ec2eafdef4692102d.jpg) 」────
+────「 [{}](https://te.legra.ph/file/8e72930c729c67765c783.jpg) 」────
 *Hola! {},*
-*Meow Meow, Don't Touch Me Without My Permission!*
+*OI oi.., Don't Touch Me Without My Permission!*
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
 ❍ *Uptime:* `{}`
 ❍ `{}` *Users, Across* `{}` *Chats.*
@@ -140,7 +140,7 @@ buttons = [
     [
         InlineKeyboardButton(text="📓 Guidelines", callback_data="help_back"),
         InlineKeyboardButton(
-            text="Source 🌐", url="https://github.com/Awesome-Prince/NekoRobot-3.git"
+            text="Source 🌐", url="https://te.legra.ph/file/5617bd9277253fdce53bb.jpg"
         ),
     ],
     [
@@ -148,7 +148,7 @@ buttons = [
             text="🚑 Support", url=f"https://telegram.dog/{SUPPORT_CHAT}"
         ),
         InlineKeyboardButton(
-            text="📢 Updates", url="https://telegram.dog/Programmer_Updates"
+            text="📢 Updates", url="https://t.me/dazai_update"
         ),
     ],
 ]
@@ -164,11 +164,11 @@ HELP_STRINGS = """
 """
 
 GROUP_START_IMG = (
-    "https://te.legra.ph/file/5f272dc498e4cf91faf92.jpg",
-    "https://te.legra.ph/file/9d8190aba9ac3421af488.jpg",
-    "https://te.legra.ph/file/5b1ce336f0c0216224040.jpg",
-    "https://te.legra.ph/file/f1f67047d973f3aea4004.jpg",
-    "https://te.legra.ph/file/c2526c05d65fd2fbfa58b.jpg",
+    "https://te.legra.ph/file/8e72930c729c67765c783.jpg",
+    "https://te.legra.ph/file/b4f3ac2bb756cfc907c49.jpg",
+    "https://te.legra.ph/file/1a14a5007d1510c6631c8.jpg",
+    "https://te.legra.ph/file/764ac01fe39ed0e0960da.jpg",
+    "https://te.legra.ph/file/3b8db7fd7e30603ff8525.jpg",
 )
 
 DONATE_STRING = """❂ I'm Free for Everyone ❂"""
