@@ -67,10 +67,10 @@ ENUM_FUNC_MAP = {
 
 VERIFIED_USER_WAITLIST = {}
 
-NEKO_IMG = "https://te.legra.ph/file/685a37fcbd1efcc014b63.mp4"
-NEKO = "https://te.legra.ph/file/873ea19b3294266411b45.jpg"
-NEKO_VID = "https://te.legra.ph/file/837d86518b6c3066d0632.mp4"
-WAIFUS_IMG = "https://te.legra.ph/file/f47d2056f08702fc69f24.jpg"
+NEKO_IMG = "https://te.legra.ph/file/9c9626ed2c534bbf4eb64.mp4"
+NEKO = "https://te.legra.ph/file/0dea7a3a14891ddfdde1c.jpg"
+NEKO_VID = "https://te.legra.ph/file/b052d0cf6f8b0e4e46eeb.mp4"
+WAIFUS_IMG = "https://te.legra.ph/file/f7e9e4401b74e175c4ed5.jpg"
 
 
 # do not async
@@ -255,12 +255,12 @@ def new_member(update: Update, context: CallbackContext):
                         [
                             [
                                 InlineKeyboardButton(
-                                    text="Support🚑",
+                                    text="Support🥂",
                                     url=f"https://t.me/Ahjin_sprt",
                                 ),
                                 InlineKeyboardButton(
-                                    text="Updates🛰️",
-                                    url="https://t.me/Mitsuri_Updates",
+                                    text="Updates❄️",
+                                    url="https://t.me/dazai_update",
                                 ),
                             ]
                         ]
