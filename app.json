@@ -1,7 +1,8 @@
 {
-      "name": "ObanaiRobot",
+      "name": "DazaiRobot",
       "description": "An Anime themed Telegram group management bot.",
-      "logo": "https://telegra.ph/file/18e6b01aa06b93c13d1ab.png",
+      "logo": "
+https://te.legra.ph/file/b4f3ac2bb756cfc907c49.jpg",
       "keywords": [
          "telegram",
          "anime",
@@ -9,7 +10,7 @@
          "manager",
          "NekoRobot"
       ],   
-   "repository": "https://te.legra.ph/file/d404cdf4b566b9c6630f3.jpg",
+   "repository": "https://te.legra.ph/file/5a1f77e12c20852812c6b.jpg",
    "addons": [
       {
          "options": {
