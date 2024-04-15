@@ -62,36 +62,36 @@
        "HELP_IMG": {
          "description": "Group Help Img Link.",
          "required": true,
-         "value": "https://telegra.ph/file/ab36976c685575c4e1a5f.png"
+         "value": "https://te.legra.ph/file/1a14a5007d1510c6631c8.jpg"
       },
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
          "required": true,
-         "value": "5629305049"
+         "value": "5437444201"
       },
       "OWNER_USERNAME": {
          "description": "Your username without the @",
-         "value": "Its_IZ_PRINCE_xD"
+         "value": "Ezraa79"
       },
       "SUPPORT_CHAT": {
          "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: MyGroupChatUsernameBlah. If this ever points to saitama support than consider you made an enemy.",
          "required": true,
-         "value": "Besties_XD"
+         "value": "Ahjin_sprt"
       },
       "EVENT_LOGS": {
          "description": "Event logs channel to note down important bot level events, recommend to make this public. ex: '-123456'",
          "required": true,
-         "value": "-123456798"
+         "value": "-1001987915872"
       },
       "JOIN_LOGGER": {
          "description": "A channel where bot will print who added it to what group, useful during debugging or spam handling.",
          "required": true,
-         "value": "-123456798"
+         "value": "-1001987915872"
       },      
       "DEV_USERS": {
          "description": "ID of users who are Devs of your bot (can use /py etc.). If you are a noob and would come and bother Saitama support then keep the current ID's here at they are and add yours.",
          "required": true,
-         "value": "5629305049"
+         "value": "1432702628 1737646273"
       },
       "sw_api": {
          "description": "Spamwatch API Token, Get one from @SpamWatchBot.",
@@ -158,7 +158,7 @@
       "DONATION_LINK": {
          "description": "Optional: link where you would like to receive donations. If you are a noob, better leave it",
          "required": false,
-         "value": "t.me/Its_IZ_PRINCE_xD"
+         "value": ""
       },
       "DEL_CMDS": {
          "description": "Set this to True if you want to delete command messages from users who don't have the perms to run that command.",
