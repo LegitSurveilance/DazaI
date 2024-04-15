@@ -45,7 +45,7 @@ from NekoRobot.modules.sql.afk_sql import check_afk_status, is_afk
 from NekoRobot.modules.sql.global_bans_sql import is_user_gbanned
 from NekoRobot.modules.sql.users_sql import get_user_num_chats
 
-NEKO_IMG = "https://te.legra.ph/file/e042a8df2f933d589d2e9.jpg"
+NEKO_IMG = "https://te.legra.ph/file/764ac01fe39ed0e0960da.jpg"
 
 
 def no_by_per(totalhp, percentage):
@@ -315,15 +315,15 @@ def info(update: Update, context: CallbackContext):
     if user.id == OWNER_ID:
         text += "\n\nThe Disaster level of this person is 'God'."
     elif user.id in DEV_USERS:
-        text += "\n\nThis user is member of 'HASHIRA CASTLE'."
+        text += "\n\nThis user is member of 'CASTLE'."
     elif user.id in DRAGONS:
-        text += "\n\nThe Disaster level of this person is 'SENSEI'."
+        text += "\n\nThe Disaster level of this person is 'Dragon."
     elif user.id in DEMONS:
-        text += "\n\nThe Disaster level of this person is 'Hashira'."
+        text += "\n\nThe Disaster level of this person is 'Demon'."
     elif user.id in TIGERS:
-        text += "\n\nThe Disaster level of this person is 'Kinoe'."
+        text += "\n\nThe Disaster level of this person is 'Tiger'."
     elif user.id in WOLVES:
-        text += "\n\nThe Disaster level of this person is 'Mizunoto'."
+        text += "\n\nThe Disaster level of this person is 'Wolve'."
     elif user.id == 5561111332:
         text += "\n\nSenorita Is Girlfriend Of @EminenceCurse."
 
@@ -458,14 +458,14 @@ def stats(update, context):
             status
             + "\n*Bot statistics*:\n"
             + "\n".join([mod.__stats__() for mod in STATS])
-            + f"\n\n[✦ Support](https://t.me/{SUPPORT_CHAT}) | [✦ Updates](https://t.me/Programmer_Updates)\n\n"
-            + "\n╘══「 by [Programmer • Network](https://t.me/Programmer_Network) 」\n",
+            + f"\n\n[✦ Support](https://t.me/{SUPPORT_CHAT}) | [✦ Updates](https://t.me/dazai_update)\n\n"
+            + "\n╘══「 by [Programmer • Network](https://t.me/Anime_Spectrum_Network) 」\n",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
                         InlineKeyboardButton(
-                            text="Repo", url="https://te.legra.ph/file/a394e3c374782668f82f5.jpg"
+                            text="Repo", url="https://te.legra.ph/file/1a14a5007d1510c6631c8.jpg"
                         )
                     ]
                 ]
@@ -479,7 +479,7 @@ def stats(update, context):
                         "\n*Bot statistics*:\n"
                         + "\n".join(mod.__stats__() for mod in STATS)
                     )
-                    + f"\n\n✦ [Support](https://t.me/{SUPPORT_CHAT}) | ✦ [Updates](https://t.me/Mitsuri_Updates)\n\n"
+                    + f"\n\n✦ [Support](https://t.me/{SUPPORT_CHAT}) | ✦ [Updates](https://t.me/dazai_update)\n\n"
                 )
                 + "╘══「 by [Programmer • Network](https://t.me/Ahjin_sprt) 」\n"
             ),
@@ -488,7 +488,7 @@ def stats(update, context):
                 [
                     [
                         InlineKeyboardButton(
-                            text="Repo", url="https://t.me/Mitsuri_Updates"
+                            text="Repo", url="https://t.me/dazai_update"
                         )
                     ]
                 ]
