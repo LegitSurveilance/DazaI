@@ -459,13 +459,13 @@ def stats(update, context):
             + "\n*Bot statistics*:\n"
             + "\n".join([mod.__stats__() for mod in STATS])
             + f"\n\n[✦ Support](https://t.me/{SUPPORT_CHAT}) | [✦ Updates](https://t.me/dazai_update)\n\n"
-            + "\n╘══「 by [Programmer • Network](https://t.me/Anime_Spectrum_Network) 」\n",
+            + "\n╘══「 by [Spectrum Network](https://t.me/Anime_Spectrum_Network) 」\n",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
                         InlineKeyboardButton(
-                            text="Repo", url="https://te.legra.ph/file/1a14a5007d1510c6631c8.jpg"
+                            text="Support", url="https://t.me/Ahjin_Sprt"
                         )
                     ]
                 ]
