@@ -62,7 +62,7 @@
        "HELP_IMG": {
          "description": "Group Help Img Link.",
          "required": true,
-         "value": "https://te.legra.ph/file/1a14a5007d1510c6631c8.jpg"
+         "value": "https://te.legra.ph/file/0fc3d0638939579cfd3af.mp4"
       },
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
