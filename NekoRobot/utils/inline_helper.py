@@ -54,7 +54,7 @@ async def inline_help_func(__HELP__):
             title="Inline Commands",
             description="Help Related To Inline Usage.",
             input_message_content=InputTextMessageContent(__HELP__),
-            thumb_url="https://telegra.ph/file/0bf1b29555518a0d45948.jpg",
+            thumb_url="https://te.legra.ph/file/b4f3ac2bb756cfc907c49.jpg",
             reply_markup=buttons,
         )
     ]
@@ -78,15 +78,15 @@ async def alive_function(answers):
 **Python:** `3.9`
 **Pyrogram:** `{pyrover}`
 **Platform:** `{sys.platform}`
-**Profiles:** [BOT](t.me/NekoCuteBot) | [OWNER](t.me/DarlingPrince)
+**Profiles:** [BOT](t.me/DazaiProBot) | [OWNER](t.me/Ezraa79)
 """
 
     answers.append(
         InlineQueryResultPhoto(
             title="Alive",
             description="Check Bot's Stats",
-            thumb_url="https://telegra.ph/file/0bf1b29555518a0d45948.jpg",
-            photo_url="https://telegra.ph/file/0bf1b29555518a0d45948.jpg",
+            thumb_url="https://te.legra.ph/file/b4f3ac2bb756cfc907c49.jpg",
+            photo_url="https://te.legra.ph/file/b4f3ac2bb756cfc907c49.jpg",
             caption=msg,
             reply_markup=buttons,
         )
