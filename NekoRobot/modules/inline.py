@@ -160,7 +160,7 @@ def inlineinfo(query: str, update: Update, context: CallbackContext) -> None:
         text += f"\n\nThis person is my owner"
         nation_level_present = True
     elif user.id in DEV_USERS:
-        text += f"\n\nThis Person is a part Developer Team of Saber 剣"
+        text += f"\n\nThis Person is a part Developer CASTLE剣"
         nation_level_present = True
     elif user.id in DRAGONS:
         text += f"\n\nThe Power level of this person is Royal"
@@ -206,23 +206,24 @@ def inlineinfo(query: str, update: Update, context: CallbackContext) -> None:
     )
 
     results = [
-        InlineQueryResultArticle(
-            id=str(uuid4()),
-            thumb_url=https://te.legra.ph/file/a64248b5307b5db471cfa.jpg",
-            title=f"User info of {html.escape(user.first_name)}",
-            input_message_content=InputTextMessageContent(
-                text, parse_mode=ParseMode.HTML, disable_web_page_preview=True
-            ),
-            reply_markup=kb,
-    ]
+    InlineQueryResultArticle(
+        id=str(uuid4()),
+        thumb_url="https://te.legra.ph/file/a64248b5307b5db471cfa.jpg",
+        title=f"User info of {html.escape(user.first_name)}",
+        input_message_content=InputTextMessageContent(
+            text, parse_mode=ParseMode.HTML, disable_web_page_preview=True
+        ),
+        reply_markup=kb,
+    )
+]
 
-    update.inline_query.answer(results, cache_time=5)
-
+update.inline_query.answer(results, cache_time=5)
 
 @pgram.on_callback_query(filters.regex("pingCB"))
 async def stats_callbacc(_, CallbackQuery):
     text = await wall()
     await pgram.answer_callback_query(CallbackQuery.id, text, show_alert=True)
+
 
 
 def about(query: str, update: Update, context: CallbackContext) -> None:
