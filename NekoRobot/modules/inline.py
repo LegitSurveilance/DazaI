@@ -83,8 +83,8 @@ def inlinequery(update: Update, _) -> None:
             },
             {
                 "title": "About",
-                "description": "Know about Neko X",
-                "message_text": "Click the button below to get to know about Neko X.",
+                "description": "Know about Dazai",
+                "message_text": "Click the button below to get to know about Dazai.",
                 "thumb_urL": "https://te.legra.ph/file/a64248b5307b5db471cfa.jpg",
                 "keyboard": ".about ",
             },
@@ -214,7 +214,6 @@ def inlineinfo(query: str, update: Update, context: CallbackContext) -> None:
                 text, parse_mode=ParseMode.HTML, disable_web_page_preview=True
             ),
             reply_markup=kb,
-        ),
     ]
 
     update.inline_query.answer(results, cache_time=5)
