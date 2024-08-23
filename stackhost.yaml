@@ -1,0 +1,4 @@
+stack:
+  name: Dazai
+  environment:
+    TELEGRAM_BOT_TOKEN: 6299213020:AAHlrGPLGRN1CYsgX2sAPSyNiM4gU7pfURI
