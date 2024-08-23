@@ -1,4 +1,6 @@
 stack:
-  name: Dazai
+  name: my-telegram-bot
   environment:
     TELEGRAM_BOT_TOKEN: 6299213020:AAHlrGPLGRN1CYsgX2sAPSyNiM4gU7pfURI
+  script:
+    start: python main.py
