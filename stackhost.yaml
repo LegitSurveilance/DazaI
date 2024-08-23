@@ -3,4 +3,4 @@ stack:
   environment:
     TELEGRAM_BOT_TOKEN: 6299213020:AAHlrGPLGRN1CYsgX2sAPSyNiM4gU7pfURI
   script:
-    start: python main.py
+    start: python -m NekoRobot
