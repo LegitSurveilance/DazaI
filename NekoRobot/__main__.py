@@ -122,11 +122,10 @@ NEKO_STICKERS = (
 PM_START_TEXT = """
 ────「 [{}](https://te.legra.ph/file/8e72930c729c67765c783.jpg) 」────
 *Hola! {},*
-*OI oi.., Don't Touch Me Without My Permission!*
-➖➖➖➖➖➖➖➖➖➖➖➖➖
-❍ *Uptime:* `{}`
+*OI oi.., Don't Touch Me Without My Permission! Music Power Built inside it*
+
 ❍ `{}` *Users, Across* `{}` *Chats.*
-➖➖➖➖➖➖➖➖➖➖➖➖➖
+
 ➛ Try The Guidelines Button Below To Know My Abilities ××
 """
 
@@ -140,7 +139,7 @@ buttons = [
     [
         InlineKeyboardButton(text="📓 Guidelines", callback_data="help_back"),
         InlineKeyboardButton(
-            text="Network 🕊️", url="https://t.me/Anime_Spectrum_Network"
+            text="Network 🕊️", url="https://t.me/Affluence_Shield"
         ),
     ],
     [
@@ -148,7 +147,7 @@ buttons = [
             text="🚑 Support", url=f"https://telegram.dog/{SUPPORT_CHAT}"
         ),
         InlineKeyboardButton(
-            text="📢 Updates", url="https://t.me/dazai_update"
+            text="🎧 Music", url="https://t.me/ShieldMusicXNeymaar"
         ),
     ],
 ]
@@ -313,7 +312,7 @@ def start(update: Update, context: CallbackContext):
                         ),
                         InlineKeyboardButton(
                             text="📢 Updates",
-                            url="https://t.me/dazai_update",
+                            url="https://t.me/shieldupdates",
                         ),
                     ]
                 ]
@@ -677,7 +676,7 @@ def donate(update: Update, context: CallbackContext) -> None:
                         [
                             InlineKeyboardButton(
                                 text="📢 Updates",
-                                url="https://t.me/dazai_update",
+                                url="https://t.me/shieldupdates",
                             ),
                             InlineKeyboardButton(
                                 text="🚑 Support",
