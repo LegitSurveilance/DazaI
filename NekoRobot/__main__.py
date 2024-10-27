@@ -121,12 +121,14 @@ NEKO_STICKERS = (
 
 PM_START_TEXT = """
 ────「 [{}](https://te.legra.ph/file/8e72930c729c67765c783.jpg) 」────
-*Hola! {},*
-*OI oi.., Don't Touch Me Without My Permission! Music Power Built inside it*
+*Hᴇʏ! {},*
 
-❍ `{}` *Users, Across* `{}` *Chats.*
+*
+㋡ ʜɪ, ɪ'ᴍ Osᴀᴍᴜ Dᴀᴢᴀɪ! ᴛʜᴇ ʙᴏᴛ ᴛʜᴀᴛ's ғᴀsᴛᴇʀ ᴛʜᴀɴ ᴀ sᴘᴇᴇᴅɪɴɢ ʙᴜʟʟᴇᴛ ᴀɴᴅ sᴍᴏᴏᴛʜᴇʀ ᴛʜᴀɴ Jᴀᴢᴢ.
 
-➛ Try The Guidelines Button Below To Know My Abilities ××
+‣ ɪ ʜᴀᴠᴇ ᴍᴀɴʏ ғᴇᴀᴛᴜʀᴇs ᴍᴜsɪᴄ? ɴᴏ ᴘʀᴏʙʟᴇᴍ. ᴍᴀɴᴀɢᴇᴍᴇɴᴛ? ᴘɪᴇᴄᴇ ᴏғ ᴄᴀᴋᴇ. ʟᴀɢ? ɴᴏᴛ ᴏɴ ᴍʏ ᴡᴀᴛᴄʜ*
+
+➛ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʜᴇʟᴘ ʙᴜᴛᴛᴏɴ ᴛᴏ ɢᴇᴛ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ 「 Osᴀᴍᴜ Dᴀᴢᴀɪ 」 ғᴇᴀᴛᴜʀᴇs ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅs+
 """
 
 buttons = [
