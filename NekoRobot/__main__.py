@@ -120,15 +120,19 @@ NEKO_STICKERS = (
 )
 
 PM_START_TEXT = """
-────「 [{}](https://te.legra.ph/file/8e72930c729c67765c783.jpg) 」────
 *Hᴇʏ! {},*
 
+────────「 [{}](https://telegra.ph/file/5406ed880a8089c6add3b.jpg) 」──────── 
+
 *
-㋡ ʜɪ, ɪ'ᴍ Osᴀᴍᴜ Dᴀᴢᴀɪ! ᴛʜᴇ ʙᴏᴛ ᴛʜᴀᴛ's ғᴀsᴛᴇʀ ᴛʜᴀɴ ᴀ sᴘᴇᴇᴅɪɴɢ ʙᴜʟʟᴇᴛ ᴀɴᴅ sᴍᴏᴏᴛʜᴇʀ ᴛʜᴀɴ Jᴀᴢᴢ.
 
-‣ ɪ ʜᴀᴠᴇ ᴍᴀɴʏ ғᴇᴀᴛᴜʀᴇs ᴍᴜsɪᴄ? ɴᴏ ᴘʀᴏʙʟᴇᴍ. ᴍᴀɴᴀɢᴇᴍᴇɴᴛ? ᴘɪᴇᴄᴇ ᴏғ ᴄᴀᴋᴇ. ʟᴀɢ? ɴᴏᴛ ᴏɴ ᴍʏ ᴡᴀᴛᴄʜ*
+㋡ ʜɪ, ɪ'ᴍ Gᴏᴊᴏ Sᴀᴛᴏʀᴜ! ᴛʜᴇ ʙᴏᴛ ᴛʜᴀᴛ's ғᴀsᴛᴇʀ ᴛʜᴀɴ ᴀ sᴘᴇᴇᴅɪɴɢ ʙᴜʟʟᴇᴛ ᴀɴᴅ sᴍᴏᴏᴛʜᴇʀ ᴛʜᴀɴ Jᴀᴢᴢ.
 
-➛ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʜᴇʟᴘ ʙᴜᴛᴛᴏɴ ᴛᴏ ɢᴇᴛ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ 「 Osᴀᴍᴜ Dᴀᴢᴀɪ 」 ғᴇᴀᴛᴜʀᴇs ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅs+
+‣ ɪ ʜᴀᴠᴇ ᴍᴀɴʏ ғᴇᴀᴛᴜʀᴇs ᴍᴜsɪᴄ? ɴᴏ ᴘʀᴏʙʟᴇᴍ. ᴍᴀɴᴀɢᴇᴍᴇɴᴛ? ᴘɪᴇᴄᴇ ᴏғ ᴄᴀᴋᴇ. ʟᴀɢ? ɴᴏᴛ ᴏɴ ᴍʏ ᴡᴀᴛᴄʜ!
+
+🫧 ᴘʜᴏᴛᴏ ʟᴏɢᴏ ᴍᴀᴋɪɴɢ ? ᴇᴀsʏ ʟɪᴋᴇ ᴍᴏᴠɪɴɢ ʏᴏᴜʀ ʜᴀɴᴅs. ᴀɪ ᴘᴏᴡᴇʀ ᴄʜᴀᴛɢᴘᴛ ?  ʟɪᴋᴇ ɪ ᴀᴍ ᴅᴏɪɴɢ ɪᴛ ғʀᴏᴍ ᴍʏ ᴄʜɪʟᴅʜᴏᴏᴅ
+
+◉ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʜᴇʟᴘ ʙᴜᴛᴛᴏɴ ᴛᴏ ɢᴇᴛ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ 「 Gᴏᴊᴏ Sᴀᴛᴏʀᴜ 」 ғᴇᴀᴛᴜʀᴇs ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅs+
 """
 
 buttons = [
@@ -139,14 +143,14 @@ buttons = [
         )
     ],
     [
-        InlineKeyboardButton(text="📓 Guidelines", callback_data="help_back"),
+        InlineKeyboardButton(text="⚙️ ᴄᴏᴍᴍᴀɴᴅs ⚙️", callback_data="help_back"),
         InlineKeyboardButton(
-            text="Network 🕊️", url="https://t.me/Affluence_Shield"
+            text="👑 ᴜᴘᴅᴀᴛᴇs 👑", url="https://t.me/Legit_Networks"
         ),
     ],
     [
         InlineKeyboardButton(
-            text="🚑 Support", url=f"https://telegram.dog/{SUPPORT_CHAT}"
+            text="🛠️ sᴜᴘᴘᴏʀᴛ ⚒️", url=f"https://telegram.dog/{SUPPORT_CHAT}"
         ),
         InlineKeyboardButton(
             text="🎧 Music", url="https://t.me/ShieldMusicXNeymaar"
