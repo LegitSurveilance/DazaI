@@ -120,36 +120,35 @@ NEKO_STICKERS = (
 )
 
 PM_START_TEXT = """
-────「 [{}](https://te.legra.ph/file/8e72930c729c67765c783.jpg) 」────
+────「 [{}](https://files.catbox.moe/9bjqag.jpg) 」────
 *Hᴇʏ! {},*
 
 *
-㋡ ʜɪ, ɪ'ᴍ Osᴀᴍᴜ Dᴀᴢᴀɪ! ᴛʜᴇ ʙᴏᴛ ᴛʜᴀᴛ's ғᴀsᴛᴇʀ ᴛʜᴀɴ ᴀ sᴘᴇᴇᴅɪɴɢ ʙᴜʟʟᴇᴛ ᴀɴᴅ sᴍᴏᴏᴛʜᴇʀ ᴛʜᴀɴ Jᴀᴢᴢ.
+➻ 𝖬𝗒𝗌𝖾𝗅𝖿 N𝖾𝗑𝗎𝗌! 𝖳𝗁𝖾 𝖬𝗈𝗌𝗍 𝖯𝗈𝗐𝖾𝗋𝖿𝗎𝗅 𝖳𝖾𝗅𝖾𝗀𝗋𝖺𝗆 𝖦𝗋𝗈𝗎𝗉 𝖬𝖺𝗇𝖺𝗀𝖾𝗆𝖾𝗇𝗍 𝖡𝗈𝗍 𝖶𝗂𝗍𝗁 𝖲𝗈𝗆𝖾 𝖠𝗐𝖾𝗌𝗈𝗆𝖾 𝖠𝗇𝖽 𝖴𝗌𝖾𝖿𝗎𝗅 𝖥𝖾𝖺𝗍𝗎𝗋𝖾𝗌.
+──────────────────────*
 
-‣ ɪ ʜᴀᴠᴇ ᴍᴀɴʏ ғᴇᴀᴛᴜʀᴇs ᴍᴜsɪᴄ? ɴᴏ ᴘʀᴏʙʟᴇᴍ. ᴍᴀɴᴀɢᴇᴍᴇɴᴛ? ᴘɪᴇᴄᴇ ᴏғ ᴄᴀᴋᴇ. ʟᴀɢ? ɴᴏᴛ ᴏɴ ᴍʏ ᴡᴀᴛᴄʜ*
-
-➛ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʜᴇʟᴘ ʙᴜᴛᴛᴏɴ ᴛᴏ ɢᴇᴛ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ 「 Osᴀᴍᴜ Dᴀᴢᴀɪ 」 ғᴇᴀᴛᴜʀᴇs ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅs+
+➛ 𝖢𝗅𝗂𝖼𝗄 𝖮𝗇 𝖳𝗁𝖾 𝖢𝗈𝗆𝗆𝖺𝗇𝖽𝗌 𝖡𝗎𝗍𝗍𝗈𝗇 𝖳𝗈 𝖦𝖾𝗍 𝖨𝗇𝖿𝗈𝗋𝗆𝖺𝗍𝗂𝗈𝗇 𝖠𝖻𝗈𝗎𝗍 𝖬𝗒 𝖬𝗈𝖽𝗎𝗅𝖾𝗌 𝖠𝗇𝖽 𝖢𝗈𝗆𝗆𝖺𝗇𝖽𝗌.
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text=f"Add {BOT_NAME} To Your Group",
+            text=f"➕ 𝗔𝗗𝗗 𝗡𝗘𝗫𝗨𝗦 𝗜𝗡 𝗬𝗢𝗨𝗥 𝗚𝗥𝗢𝗨𝗣 ➕",
             url=f"https://telegram.dog/{BOT_USERNAME}?startgroup=true",
         )
     ],
     [
-        InlineKeyboardButton(text="📓 Guidelines", callback_data="help_back"),
+        InlineKeyboardButton(text="⚙️ 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦 ⚙️", callback_data="help_back"),
         InlineKeyboardButton(
-            text="Network 🕊️", url="https://t.me/Affluence_Shield"
+            text="𝗡𝗘𝗧𝗪𝗢𝗥𝗞 🕊️", url="https://t.me/DOMAINNETWORK"
         ),
     ],
     [
         InlineKeyboardButton(
-            text="🚑 Support", url=f"https://telegram.dog/{SUPPORT_CHAT}"
+            text="🚑 𝗦𝗨𝗣𝗣𝗢𝗥𝗧", url=f"https://telegram.dog/domainbotssupport"
         ),
         InlineKeyboardButton(
-            text="🎧 Music", url="https://t.me/ShieldMusicXNeymaar"
+            text="🎧 𝗠𝗨𝗦𝗜𝗖", url="https://t.me/ShieldMusicXNeymaar"
         ),
     ],
 ]
