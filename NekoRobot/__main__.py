@@ -112,22 +112,16 @@ HELP_MSG = "Click The Button Below To Get Help Menu In Your Dm."
 START_MSG = "I'm Awake Already!\n<b>Haven't Slept Since:</b> <code>{}</code>"
 
 NEKO_STICKERS = (
-    "CAACAgQAAx0CZ6jnnwABARlWZhzXnkiOK9_8WAABETcUGdOYZTR3AAKuAwACePAJHBD7j4zSO7RmNAQ",
-    "CAACAgUAAx0CZ6jnnwABARwaZhz8FnQLtqxUmjO_ZVaRubuX8HsAAroBAALLyUhUHrpJYZn9cl40BA",
-    "CAACAgQAAx0CZ6jnnwABARlQZhzXdSQrQj0g191q8uuAbwiT_CQAAqsDAAJ48Akc_9H91LW5Kvs0BA",
-    "CAACAgQAAx0CZ6jnnwABARlLZhzXXyT7EjPfmFwtxoxGW2STTOkAApcDAAJ48AkcVnzcbbAAAS3GNAQ",
-    "CAACAgQAAx0CZ6jnnwABARlGZhzXRkYHayg3UCsKogs7JUq60lEAAq0DAAJ48AkcFZzNpLqSBI80BA",
+    "CAACAgUAAxUAAWct4C_I_AF8QlxSXkXTZldGgrLbAAImDgAC74JxVeQlxNNlXkb1NgQ",
 )
 
 PM_START_TEXT = """
-────「 [{}](https://files.catbox.moe/9bjqag.jpg) 」────
 *Hᴇʏ! {},*
-
 *
 ➻ 𝖬𝗒𝗌𝖾𝗅𝖿 N𝖾𝗑𝗎𝗌! 𝖳𝗁𝖾 𝖬𝗈𝗌𝗍 𝖯𝗈𝗐𝖾𝗋𝖿𝗎𝗅 𝖳𝖾𝗅𝖾𝗀𝗋𝖺𝗆 𝖦𝗋𝗈𝗎𝗉 𝖬𝖺𝗇𝖺𝗀𝖾𝗆𝖾𝗇𝗍 𝖡𝗈𝗍 𝖶𝗂𝗍𝗁 𝖲𝗈𝗆𝖾 𝖠𝗐𝖾𝗌𝗈𝗆𝖾 𝖠𝗇𝖽 𝖴𝗌𝖾𝖿𝗎𝗅 𝖥𝖾𝖺𝗍𝗎𝗋𝖾𝗌.
 ──────────────────────*
 
-➛ 𝖢𝗅𝗂𝖼𝗄 𝖮𝗇 𝖳𝗁𝖾 𝖢𝗈𝗆𝗆𝖺𝗇𝖽𝗌 𝖡𝗎𝗍𝗍𝗈𝗇 𝖳𝗈 𝖦𝖾𝗍 𝖨𝗇𝖿𝗈𝗋𝗆𝖺𝗍𝗂𝗈𝗇 𝖠𝖻𝗈𝗎𝗍 𝖬𝗒 𝖬𝗈𝖽𝗎𝗅𝖾𝗌 𝖠𝗇𝖽 𝖢𝗈𝗆𝗆𝖺𝗇𝖽𝗌.
+[➛](https://files.catbox.moe/9bjqag.jpg) 𝖢𝗅𝗂𝖼𝗄 𝖮𝗇 𝖳𝗁𝖾 𝖢𝗈𝗆𝗆𝖺𝗇𝖽𝗌 𝖡𝗎𝗍𝗍𝗈𝗇 𝖳𝗈 𝖦𝖾𝗍 𝖨𝗇𝖿𝗈𝗋𝗆𝖺𝗍𝗂𝗈𝗇 𝖠𝖻𝗈𝗎𝗍 𝖬𝗒 𝖬𝗈𝖽𝗎𝗅𝖾𝗌 𝖠𝗇𝖽 𝖢𝗈𝗆𝗆𝖺𝗇𝖽𝗌.
 """
 
 buttons = [
@@ -164,14 +158,14 @@ HELP_STRINGS = """
 """
 
 GROUP_START_IMG = (
-    "https://te.legra.ph/file/8e72930c729c67765c783.jpg",
-    "https://te.legra.ph/file/b4f3ac2bb756cfc907c49.jpg",
-    "https://te.legra.ph/file/1a14a5007d1510c6631c8.jpg",
-    "https://te.legra.ph/file/764ac01fe39ed0e0960da.jpg",
-    "https://te.legra.ph/file/3b8db7fd7e30603ff8525.jpg",
+    "https://files.catbox.moe/v4lwl5.jpg",
+    "https://files.catbox.moe/asl7ej.jpg",
+    "https://files.catbox.moe/wis9rd.jpg",
+    "https://files.catbox.moe/bcsh5o.jpg",
+    "https://files.catbox.moe/v4lwl5.jpg",
 )
 
-DONATE_STRING = """❂ I'm Free for Everyone ❂"""
+DONATE_STRING = """❂ If you are interested to donate contact @BetLuckers ❂"""
 
 IMPORTED = {}
 MIGRATEABLE = []
