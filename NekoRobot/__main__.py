@@ -296,10 +296,7 @@ def start(update: Update, context: CallbackContext):
     else:
         update.effective_message.reply_photo(
             random.choice(GROUP_START_IMG),
-            caption=f"<b>◎𝙷ᴇʏ ʙᴜᴅᴅʏ ᴛʜɪꜱ ɪꜱ ɢᴏᴊᴏ ꜱᴀᴛᴏʀᴜ !
-⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯ 
-🫧 ᴀ ᴘᴏᴡᴇʀꜰᴜʟ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ. 
-​˹ᴡᴏʀᴋɪɴɢ ᴘʀᴏᴘᴇʟʏ ꜱɪɴᴄᴇ˼: <code>{uptime}</code>",
+            caption=f"<b>Yes, Master I'm alive!\nHaven't sleep since</b>: <code>{uptime}</code>",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
                 [
