@@ -112,7 +112,7 @@ HELP_MSG = "Click The Button Below To Get Help Menu In Your Dm."
 START_MSG = "I'm Awake Already!\n<b>Haven't Slept Since:</b> <code>{}</code>"
 
 NEKO_STICKERS = (
-    "CAACAgUAAxUAAWct4C_I_AF8QlxSXkXTZldGgrLbAAImDgAC74JxVeQlxNNlXkb1NgQ",
+    "CAACAgUAAxkBAAN7Zy8_nUovtr_J9A8O3GbqlTfqGcgAApgRAAJjnXlVb5N8bqU1BRU2BA",
 )
 
 PM_START_TEXT = """
@@ -122,28 +122,28 @@ PM_START_TEXT = """
 
 ‣ ɪ ʜᴀᴠᴇ ᴍᴀɴʏ ғᴇᴀᴛᴜʀᴇs ᴍᴜsɪᴄ? ɴᴏ ᴘʀᴏʙʟᴇᴍ. ᴍᴀɴᴀɢᴇᴍᴇɴᴛ? ᴘɪᴇᴄᴇ ᴏғ ᴄᴀᴋᴇ. ʟᴀɢ? ɴᴏᴛ ᴏɴ ᴍʏ ᴡᴀᴛᴄʜ!
 
-[🫧](https://telegra.ph/file/5406ed880a8089c6add3b.jpg) ᴘʜᴏᴛᴏ ʟᴏɢᴏ ᴍᴀᴋɪɴɢ ? ᴇᴀsʏ ʟɪᴋᴇ ᴍᴏᴠɪɴɢ ʏᴏᴜʀ ʜᴀɴᴅs. ᴀɪ ᴘᴏᴡᴇʀ ᴄʜᴀᴛɢᴘᴛ ?  ʟɪᴋᴇ ɪ ᴀᴍ ᴅᴏɪɴɢ ɪᴛ ғʀᴏᴍ ᴍʏ ᴄʜɪʟᴅʜᴏᴏᴅ*
+🫧 ᴘʜᴏᴛᴏ ʟᴏɢᴏ ᴍᴀᴋɪɴɢ ? ᴇᴀsʏ ʟɪᴋᴇ ᴍᴏᴠɪɴɢ ʏᴏᴜʀ ʜᴀɴᴅs. ᴀɪ ᴘᴏᴡᴇʀ ᴄʜᴀᴛɢᴘᴛ ?  ʟɪᴋᴇ ɪ ᴀᴍ ᴅᴏɪɴɢ ɪᴛ ғʀᴏᴍ ᴍʏ ᴄʜɪʟᴅʜᴏᴏᴅ*
 
-➛ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʜᴇʟᴘ ʙᴜᴛᴛᴏɴ ᴛᴏ ɢᴇᴛ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ 「 Gᴏᴊᴏ Sᴀᴛᴏʀᴜ 」 ғᴇᴀᴛᴜʀᴇs ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅs+
+[➛](https://files.catbox.moe/a4baou.mp4) ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʜᴇʟᴘ ʙᴜᴛᴛᴏɴ ᴛᴏ ɢᴇᴛ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ 「 Gᴏᴊᴏ Sᴀᴛᴏʀᴜ 」 ғᴇᴀᴛᴜʀᴇs ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅs+
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="• ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ •", 
+            text="➕ ᴀᴅᴅ ᴍᴇ ɪɴ ɢʀᴏᴜᴘ ➕", 
             url=f"https://t.me/{BOT_USERNAME}?startgroup=true", 
         ),
     ],
     [
-        InlineKeyboardButton(text="• ʀᴇᴘᴏ •", url=f"https://telegram.dog/domainbotssupport"),
-        InlineKeyboardButton(text="• ᴀʙᴏᴜᴛ •", url=f"https://telegram.dog/domainbotssupport"),
+        InlineKeyboardButton(text="🥂 sᴜᴘᴘᴏʀᴛ 🍸", url=f"https://telegram.dog/strawHatssupport"),
+        InlineKeyboardButton(text="🍁 ᴜᴘᴅᴀᴛᴇs 🍁", url=f"https://telegram.dog/StrawHatsUpdates"),
     ],
     [
-        InlineKeyboardButton(text="• ᴜᴘᴅᴀᴛᴇ •", url=f"https://t.me/botkild"),
-        InlineKeyboardButton(text="• ꜱᴜᴘᴘᴏʀᴛ •", url=f"https://t.me/{SUPPORT_CHAT}"),
+        InlineKeyboardButton(text="⚡ ᴏᴡɴᴇʀ ⚡", url=f"https://t.me/betLuckers"),
+        InlineKeyboardButton(text="🎧 ᴍᴜsɪᴄ 🎧", url=f"https://t.me/StrawHatsNetwork"),
     ],
     [
-        InlineKeyboardButton(text="• ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅs •", callback_data="help_back"),
+        InlineKeyboardButton(text="⚙️ ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅs ⚙️", callback_data="help_back"),
     ],
 
 ]
@@ -159,11 +159,10 @@ HELP_STRINGS = """
 """
 
 GROUP_START_IMG = (
-    "https://files.catbox.moe/v4lwl5.jpg",
-    "https://files.catbox.moe/asl7ej.jpg",
-    "https://files.catbox.moe/wis9rd.jpg",
-    "https://files.catbox.moe/bcsh5o.jpg",
-    "https://files.catbox.moe/v4lwl5.jpg",
+    "https://files.catbox.moe/09enhy.jpg",
+    "https://files.catbox.moe/gn4p08.jpg",
+    "https://files.catbox.moe/9r3bzh.jpg",
+    "https://files.catbox.moe/3iubf4.jpg",
 )
 
 DONATE_STRING = """❂ If you are interested to donate contact @BetLuckers ❂"""
@@ -297,18 +296,21 @@ def start(update: Update, context: CallbackContext):
     else:
         update.effective_message.reply_photo(
             random.choice(GROUP_START_IMG),
-            caption=f"<b>Yes, Master I'm alive!\nHaven't sleep since</b>: <code>{uptime}</code>",
+            caption=f"<b>◎𝙷ᴇʏ ʙᴜᴅᴅʏ ᴛʜɪꜱ ɪꜱ ɢᴏᴊᴏ ꜱᴀᴛᴏʀᴜ !
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯ 
+🫧 ᴀ ᴘᴏᴡᴇʀꜰᴜʟ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ. 
+​˹ᴡᴏʀᴋɪɴɢ ᴘʀᴏᴘᴇʟʏ ꜱɪɴᴄᴇ˼: <code>{uptime}</code>",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
                         InlineKeyboardButton(
-                            text="🚑 Support",
+                            text="🎭 sᴜᴘᴘᴏʀᴛ ♟️",
                             url=f"https://telegram.dog/{SUPPORT_CHAT}",
                         ),
                         InlineKeyboardButton(
-                            text="📢 Updates",
-                            url="https://t.me/shieldupdates",
+                            text="🏹 ᴜᴘᴅᴀᴛᴇs 🎳",
+                            url="https://t.me/StrawHatsUpdates",
                         ),
                     ]
                 ]
