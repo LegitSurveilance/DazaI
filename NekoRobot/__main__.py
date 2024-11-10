@@ -112,7 +112,7 @@ HELP_MSG = "Click The Button Below To Get Help Menu In Your Dm."
 START_MSG = "I'm Awake Already!\n<b>Haven't Slept Since:</b> <code>{}</code>"
 
 NEKO_STICKERS = (
-    "CAACAgUAAxkBAAN7Zy8_nUovtr_J9A8O3GbqlTfqGcgAApgRAAJjnXlVb5N8bqU1BRU2BA",
+    "CAACAgUAAxkBAAJDC2cwtqRJ74uj8rtylvpOKNMVxPULAAKSEgACvCWIVSJG1A1xntXuHgQ",
 )
 
 PM_START_TEXT = """
