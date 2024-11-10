@@ -130,24 +130,22 @@ PM_START_TEXT = """
 buttons = [
     [
         InlineKeyboardButton(
-            text=f"➕ 𝗔𝗗𝗗 𝗜𝗡 𝗬𝗢𝗨𝗥 𝗚𝗥𝗢𝗨𝗣 ➕",
-            url=f"https://telegram.dog/{BOT_USERNAME}?startgroup=true",
-        )
-    ],
-    [
-        InlineKeyboardButton(text="⚙️ 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦 ⚙️", callback_data="help_back"),
-        InlineKeyboardButton(
-            text="𝗡𝗘𝗧𝗪𝗢𝗥𝗞", url="https://t.me/DOMAINNETWORK"
+            text="• ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ •", 
+            url=f"https://t.me/{BOT_USERNAME}?startgroup=true", 
         ),
     ],
     [
-        InlineKeyboardButton(
-            text="🚑 𝗦𝗨𝗣𝗣𝗢𝗥𝗧", url=f"https://telegram.dog/domainbotssupport"
-        ),
-        InlineKeyboardButton(
-            text="🎧 𝗠𝗨𝗦𝗜𝗖", url="https://t.me/ShieldMusicXNeymaar"
-        ),
+        InlineKeyboardButton(text="• ʀᴇᴘᴏ •", url=f"https://telegram.dog/domainbotssupport"),
+        InlineKeyboardButton(text="• ᴀʙᴏᴜᴛ •", url=f"https://telegram.dog/domainbotssupport"),
     ],
+    [
+        InlineKeyboardButton(text="• ᴜᴘᴅᴀᴛᴇ •", url=f"https://t.me/botkild"),
+        InlineKeyboardButton(text="• ꜱᴜᴘᴘᴏʀᴛ •", url=f"https://t.me/{SUPPORT_CHAT}"),
+    ],
+    [
+        InlineKeyboardButton(text="• ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅs •", callback_data="help_back"),
+    ],
+
 ]
 
 HELP_STRINGS = """
