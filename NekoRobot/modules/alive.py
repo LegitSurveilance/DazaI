@@ -38,11 +38,10 @@ from NekoRobot.events import register
 
 edit_time = 5
 """ =======================Neko====================== """
-file1 = "https://te.legra.ph/file/3b8db7fd7e30603ff8525.jpg"
-file2 = "https://te.legra.ph/file/4e3e3f5a5c65a55b3a52a.jpg"
-file3 = "https://te.legra.ph/file/0dea7a3a14891ddfdde1c.jpg"
-file4 = "https://te.legra.ph/file/f7e9e4401b74e175c4ed5.jpg"
-file5 = "https://te.legra.ph/file/523f4c00f8d5ea0b27b14.jpg"
+file1 = "https://files.catbox.moe/09enhy.jpg"
+file2 = "https://files.catbox.moe/gn4p08.jpg"
+file3 = "https://files.catbox.moe/9r3bzh.jpg"
+file4 = "https://files.catbox.moe/3iubf4.jpg"
 """ =======================Neko====================== """
 
 START_TIME = datetime.utcnow()
@@ -78,7 +77,7 @@ async def hmm(yes):
     NekoX += f"**Python-telegram-bot Version :** `{ptb}`\n\n"
     NekoX += f"**Telethon Version :** `{tlhver}`\n\n"
     NekoX += f"**Pyrogram Version :** `{pyrover}`\n\n"
-    NekoX += "**My Master :** [Ezra](https://t.me/Ezraa79) "
+    NekoX += "**My Master :** [Owner](https://t.me/BetLuckers) "
     NekoX += f"Thanks For Adding Me In {yes.chat.title}"
     BUTTON = [
         [
